@@ -5,9 +5,9 @@
         footer{color: whitesmoke;background-color: black}
         body{background-color: yellow;}
         h1{text-align: center}
-        ul{background-color: white; list-style-type: none;display: flex;flex-direction: row;}
+        ul{background-color: white; list-style-type: none;display: flex;flex-direction: row; justify-content: flex-end}
         a{margin: 10px; color:black;text-decoration: none;}
-        li{color: black;}
+        li{color: black;align-self: center}
     </style>
 </head>
 <body>
