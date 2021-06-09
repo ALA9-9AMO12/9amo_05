@@ -2,15 +2,18 @@
 <head>
     <title>@yield('title')</title>
     <style>
+        footer{color: whitesmoke;background-color: black}
+        body{background-color: yellow;}
         h1{text-align: center}
-        ul{list-style-type: none;display: flex;flex-direction: row;}
+        ul{background-color: black; list-style-type: none;display: flex;flex-direction: row;}
         a{margin: 1vw; color:black;text-decoration: none;}
-        li{border: black 1px solid; margin: 10px;}
+        li{color: whitesmoke; border: black 1px solid; margin: 10px;}
     </style>
 </head>
 <body>
     <div id="main-menu">
         <ul>
+        <a href="#"><img src=""></a>
         <a href="#"><li>Homepage</li></a>
         <a href="#"><li>Voor Imkers</li></a>
         <a href="#"><li>Cursussen
