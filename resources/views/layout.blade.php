@@ -5,9 +5,9 @@
         footer{color: whitesmoke;background-color: black}
         body{background-color: yellow;}
         h1{text-align: center}
-        ul{background-color: black; list-style-type: none;display: flex;flex-direction: row;}
-        a{margin: 1vw; color:black;text-decoration: none;}
-        li{color: whitesmoke; border: black 1px solid; margin: 10px;}
+        ul{background-color: white; list-style-type: none;display: flex;flex-direction: row;}
+        a{margin: 10px; color:black;text-decoration: none;}
+        li{color: black; border: black 1px solid; margin: 10px;}
     </style>
 </head>
 <body>
@@ -16,7 +16,7 @@
         <a href="#"><img src=""></a>
         <a href="#"><li>Homepage</li></a>
         <a href="#"><li>Voor Imkers</li></a>
-        <a href="#"><li>Cursussen
+        <a href="#"><li style="color: whitesmoke">Cursussen
                 <ul>
                     <a href="#"><li>Basiscursus</li></a>
                     <a href="#"><li>Bijschooling</li></a>
