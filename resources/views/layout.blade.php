@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title></title>
+    <title>@yield('title')</title>
     <style>
         h1{text-align: center}
         ul{list-style-type: none;display: flex;flex-direction: row;}
@@ -22,7 +22,12 @@
             </li></a>
             <a href="#"><li>Nieuwsarchief</li></a>
             <a href="#"><li>Artikelen</li></a>
-            <a href="#"><li>Imkersvereniging</li></a>
+            <a href="#"><li>Imkersvereniging
+                <ul>
+                    <a href="#"><li>Bestuur</li></a>
+                    <a href="#"><li>Lidmaatschap</li></a>
+                </ul>
+                </li></a>
             <a href="#"><li>Contact</li></a>
             <a href="#"><li>Over Ons</li></a>
         </ul>
@@ -31,5 +36,10 @@
     <div>
         @yield('content')
     </div>
+<footer>
+    <div>
+        @yield('footer')
+    </div>
+</footer>
 </body>
 </html>
