@@ -7,6 +7,7 @@
         h1{text-align: center}
         ul{background-color: white; list-style-type: none;display: flex;flex-direction: row; justify-content: flex-end}
         a{margin: 10px; color:black;text-decoration: none;}
+        a:hover{background-color: yellow;}
         li{color: black;align-self: center}
     </style>
 </head>
