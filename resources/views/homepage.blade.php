@@ -1,1 +1,1 @@
-<h1>Homepage controller</h1>
+<h1>Hoempage</h1>
