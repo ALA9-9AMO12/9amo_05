@@ -15,13 +15,13 @@
     <div id="main-menu">
         <ul>
             <a href="#"><img src=""></a>
-            <a href="#"><li>Homepage</li></a>
+            <a href="/"><li>Homepage</li></a>
             <a href="#"><li>Voor Imkers</li></a>
             <a href="#"><li>Cursussen</li></a>
-            <a href="#"><li>Nieuwsarchief</li></a>
+            <a href="/nieuwsarchief"><li>Nieuwsarchief</li></a>
             <a href="#"><li>Artikelen</li></a>
             <a href="#"><li>Imkersvereniging</li></a>
-            <a href="#"><li>Contact</li></a>
+            <a href="/contact"><li>Contact</li></a>
             <a href="#"><li>Over Ons</li></a>
         </ul>
     </div>
